@@ -1,18 +1,18 @@
 Based on backtracking n-queen problem
 Have 2 button get puzzle and solve puzzle
-get puzzle gives puzzlesolve puzzle solves puzzle
+"get puzzle" gives the puzzle ; "solve puzzle" solves the puzzle
 
 Grid: 1-9 no. to be filled of 1x3 Grid
 no repetitive no. from 1-9 in a grid of 3x3, in row and colm
 algo= backtrack
-Rule:1) if empty cell then no. fill 2) if cell is filled move to next move 3) no num can be filled then backtrack
+Rule:1) if empty cell then num fill 2) if cell is filled -> move to next move 3) if no num can be filled then backtrack
 Refrences check
-2025-03-18 21:59:03.061 [info] file:///c%3A/Users/PRIYA/OneDrive/Desktop/Sudoku%20solver/Sudoku_Solver.cpp Similar code at  [Ln 7, Col 12] int board[9][9]={  {5,3,0,0,7,0,0,0,0},  {6,0,0,1,9,5,0,0,0},  {0,9,8,...
-2025-03-18 21:59:03.061 [info] License: unknown, URL: https://github.com/asolntsev/devclub/blob/721de94fc3d656c6631a1d9ac1962f72d68e6ef5/sudoku/test/eu/devclub/sudoku/SolverTest.java
-2025-03-18 21:59:03.061 [info] License: unknown, URL: https://github.com/uecker/toys/blob/27759c21c6d32dee747af86eeeaaf229552e5a2e/sudoku.c
-2025-03-18 21:59:03.061 [info] License: unknown, URL: https://github.com/jatiny17/My-Codes/blob/2adccded6bd3b987ae3a37f1cba988d8b1fdf1fb/soduku_backtracking.cpp
+URL: https://github.com/asolntsev/devclub/blob/721de94fc3d656c6631a1d9ac1962f72d68e6ef5/sudoku/test/eu/devclub/sudoku/SolverTest.java
+URL: https://github.com/S-Umer-R/Sudoku-Game-on-C-Language
+URL: https://github.com/jatiny17/My-Codes/blob/2adccded6bd3b987ae3a37f1cba988d8b1fdf1fb/soduku_backtracking.cpp
 
-
+to find location of first index of submatrix:
 I. subgrid formula= i/root(n) * root(n)
-ex=int (4/3)*3 =1*3=3
-II. i-(i%root(n)) ex=5-(5%3)=5-2=>3
+-- ex=int (4/3)*3 =1*3=3
+II. i-(i%root(n)) 
+-- ex=5-(5%3)=5-2=>3
